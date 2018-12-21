@@ -1,12 +1,12 @@
 import React from "react";
 import Title from "../TITLE/title";
 
-const TopRated = () => {
+const CurrentMovies = () => {
   return (
     <div>
-      <Title title="TOP RATED" />
+      <Title title="CURRENT MOVIES" />
     </div>
   );
 };
 
-export default TopRated;
+export default CurrentMovies;

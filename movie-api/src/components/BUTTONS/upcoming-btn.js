@@ -2,11 +2,11 @@ import React from "react";
 import Buttons from "./buttons";
 import { NavLink } from "react-router-dom";
 
-const UpcomingBtn = () => {
+const UpcomingBtn = props => {
   return (
     <div>
       <NavLink to="/upcoming">
-        <Buttons name="UPCOMING" />
+        <Buttons value={props.value} name="UPCOMING" />
       </NavLink>
     </div>
   );

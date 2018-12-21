@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav>
       <NavLink to="/">
-        <Title title="MOVIE LISTINGS" />
+        <Title title="MOVIES" />
       </NavLink>
     </nav>
   );

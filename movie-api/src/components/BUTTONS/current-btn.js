@@ -2,14 +2,14 @@ import React from "react";
 import Buttons from "./buttons";
 import { NavLink } from "react-router-dom";
 
-const TopRatedBtn = props => {
+const CurrentBtn = props => {
   return (
     <div>
-      <NavLink to="/top-rated">
-        <Buttons value={props.value} name="TOP RATED" />
+      <NavLink to="/current">
+        <Buttons value={props.value} name="CURRENT MOVIES" />
       </NavLink>
     </div>
   );
 };
 
-export default TopRatedBtn;
+export default CurrentBtn;
